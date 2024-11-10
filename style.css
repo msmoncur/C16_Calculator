@@ -1,0 +1,44 @@
+body{
+    width: 100%; 
+    height: 100vh; 
+    background:aquamarine; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+}
+
+.calculator{
+    background: #FF69B4; 
+    padding: 20px; 
+    border-radius: 10px; 
+}
+
+.calculator form input{ 
+    border: 0; 
+    outline: 0; 
+    width: 60px; 
+    background: #FFDBE9;
+    border-radius: 10px; 
+    font-size: 20px; 
+    margin: 10px; 
+}
+
+form .display{
+    display: flex; 
+    justify-content: flex-end; 
+    margin: 20px 0; 
+}
+
+form .display input{
+    text-align: right; 
+    flex:1; 
+    font-size: 45px; 
+}
+
+form input.back{
+    width:145px;
+}
+
+form input.clear{
+    width:145px;
+}
